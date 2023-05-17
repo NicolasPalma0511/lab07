@@ -5,7 +5,7 @@ $nombre_bd = "lab07";
 
 try {
 	$bd = new PDO (
-		'mysql:host=db-mysql-nyc1-41357-do-user-14090352-0.b.db.ondigitalocean.com;
+		'mysql:host=db-mysql-nyc1-41357-do-user-14090352-0.b.db.ondigitalocean.com:25060;
 		dbname='.$nombre_bd,
 		$usuario,
 		$contrasena,
